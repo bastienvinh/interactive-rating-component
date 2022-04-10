@@ -1,0 +1,50 @@
+{
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true,
+    "**/node_modules": true
+  },
+
+  "editor.detectIndentation": true,
+  "typescript.check.npmIsInstalled": true,
+  "npm.packageManager": "yarn",
+  "eslint.packageManager": "yarn",
+
+  "editor.tabSize": 2,
+  "editor.renderFinalNewline": true,
+
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+  },
+
+  "window.title": "🥸 Project 1 ${separator}${dirty}${activeEditorShort}",
+  // Pour differencier les projets
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#3e0853",
+    "statusBar.foreground": "#fff",
+    "titleBar.activeBackground": "#3e0853",
+    "titleBar.activeForeground": "#fff",
+    "titleBar.inactiveForeground": "#fff",
+    "titleBar.inactiveBackground": "#8439a1"
+  },
+
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "webpack.config.d.ts": true,
+    "yarn.lock": true,
+    "tsconfig.tsbuildinfo": true,
+    ".pnp.*": true
+  },
+
+}
