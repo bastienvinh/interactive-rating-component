@@ -26,12 +26,12 @@
   "window.title": "🥸 Project 1 ${separator}${dirty}${activeEditorShort}",
   // Pour differencier les projets
   "workbench.colorCustomizations": {
-    "statusBar.background": "#3e0853",
+    "statusBar.background": "#0e2bcf",
     "statusBar.foreground": "#fff",
-    "titleBar.activeBackground": "#3e0853",
+    "titleBar.activeBackground": "#0e2bcf",
     "titleBar.activeForeground": "#fff",
     "titleBar.inactiveForeground": "#fff",
-    "titleBar.inactiveBackground": "#8439a1"
+    "titleBar.inactiveBackground": "#6979d5"
   },
 
   "files.exclude": {

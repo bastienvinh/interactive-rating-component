@@ -1,0 +1,60 @@
+.ModalSelection {
+  width: 100%;
+  display: grid;
+  gap: 15px;
+  grid-template-rows: 4rem 35px minmax(250px, max-content) calc(4rem + 20px) 70px;
+}
+
+.Title {
+  color: var(--primary-writing-color);
+  font-size: 2rem;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.Steps {
+  height: calc(4rem + 20px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.SuccessMessage {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  padding: 20px;
+
+  & > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.SuccessSelected {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.SelectedOut {
+  color: var(--primary-color, white);
+  background-color: hsl(211.76, 30.91%, 18.24%);
+  padding: 7px;
+}
+
+.SuccessSelectedMessage {
+  color: var(--primary-writing-color, white);
+  font-size: 2rem;
+}
+
+.SuccessSelectedSubMessage {
+  color: var(--primary-sub-message, hsl(216deg, 12%, 54%));
+  font-size: 1.1rem;
+  display: inline-block;
+  text-align: center;
+}

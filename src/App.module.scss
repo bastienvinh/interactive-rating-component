@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  --primary-color: hsl(25, 97%, 53%);
+  --primary-writing-color: white;
+  --primary-sub-message: hsl(216deg, 12%, 54%);
+}
+
+body {
+  background-color: hsl(240, 12.5%, 8.82%);
+}
+
+.middle {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

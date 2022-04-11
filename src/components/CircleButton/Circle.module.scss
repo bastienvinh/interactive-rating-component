@@ -1,0 +1,27 @@
+.Circle {
+  background-color: hsl(211.76, 30.91%, 18.24%);
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+  border-radius: 50%;
+  font-size: 1.4rem;
+}
+
+.Button {
+  cursor: pointer;
+  transition: background-color 0.4s ease-in;
+  border: 0;
+  outline: 0;
+
+  &.active {
+    background-color: hsl(216, 12%, 54%);
+  }
+
+  &:hover {
+    background-color: var(--primary-color, hsl(25, 97%, 53%));
+  }
+}

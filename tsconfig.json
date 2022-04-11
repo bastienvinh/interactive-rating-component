@@ -27,7 +27,8 @@
   "include": [
     "src/**/*",
     "src/**/**/*",
-    "webpack.config.ts"
+    "webpack.config.ts",
+    "src/data/*.json"
   ],
   "exclude": [
     "node_modules"

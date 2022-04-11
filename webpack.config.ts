@@ -59,6 +59,9 @@ const conf: Configuration = {
     liveReload: true,
     compress: true,
     port: 7000,
+    static: {
+      directory: path.join(__dirname, "public")
+    },
     historyApiFallback: true,
     watchFiles: {
       paths: ["src/**/*"]
@@ -76,7 +79,8 @@ const conf: Configuration = {
       templateContent: ({ htmlWebpackPlugin }) => `
         <html>
           <head>
-            ${htmlWebpackPlugin.tags.headTags}
+            <title>Project 1</title>
+            <link rel="shortcut icon" type="image/jpg" href="/images/favicon.png"/>
           </head>
           <body>
             <noscript>You must have Javascript enabled to open our webpage</noscript>
