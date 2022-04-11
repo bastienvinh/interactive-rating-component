@@ -13,6 +13,11 @@
   align-items: center;
 }
 
+.Text {
+  color: hsl(216, 12%, 54%);
+  font-size: 1.5rem;
+}
+
 .Steps {
   height: calc(4rem + 20px);
   display: flex;
@@ -57,4 +62,15 @@
   font-size: 1.1rem;
   display: inline-block;
   text-align: center;
+}
+
+@media only screen and (max-width: 480px) {
+  .ModalSelection {
+    grid-template-rows: 3rem 30px minmax(175px, max-content) calc(4rem + 20px) 70px;
+  }
+
+  .Text {
+    color: hsl(216, 12%, 54%);
+    font-size: 1.25rem;
+  }
 }
